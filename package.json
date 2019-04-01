@@ -1,0 +1,26 @@
+{
+  "name": "medwind-be",
+  "version": "0.1.0",
+  "description": "A sample Node.js app using Express 4",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --timeout 10000"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^6.0.2",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7"
+  },
+  "dependencies": {
+    "@google/maps": "^0.5.5",
+    "babel-polyfill": "^6.23.0",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "moment": "^2.19.2",
+    "mongoose": "^5.4.20"
+  }
+}
